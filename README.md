@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="BANNER_IMAGE_PATH_HERE" width="820" alt="PassVault Pro Banner">
+  <img src="assets/banner.png" width="820" alt="PassVault Pro Banner">
 </p>
 
 <h1 align="center">🔐 PassVault Pro</h1>
