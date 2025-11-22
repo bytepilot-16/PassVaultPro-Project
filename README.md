@@ -33,8 +33,7 @@ Copy code
 
 python password_manager_master.py
 
-yaml
-Copy code
+
 
 ---
 
