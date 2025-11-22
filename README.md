@@ -89,7 +89,7 @@ README.md                        # Project documentation
 
 For a deeper technical explanation, refer to:
 
-👉 **Technical Definitions for Imports.md**
+👉 **Technical Definitions for Imports.txt**
 
 ---
 
