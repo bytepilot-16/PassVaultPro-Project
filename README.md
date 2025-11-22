@@ -1,3 +1,21 @@
+<p align="center">
+
+  <!-- Python version -->
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white">
+
+  <!-- Tkinter -->
+  <img src="https://img.shields.io/badge/GUI-Tkinter-FF9800?logo=windowsterminal&logoColor=white">
+
+  <!-- SQLite -->
+  <img src="https://img.shields.io/badge/Database-SQLite-003B57?logo=sqlite&logoColor=white">
+
+  <!-- Offline -->
+  <img src="https://img.shields.io/badge/Offline-100%25-success?logo=linux&logoColor=white">
+
+  <!-- License -->
+  <img src="https://img.shields.io/badge/License-Educational-blue">
+
+</p>
 # PassVault Pro – Python Password Manager (Tkinter + SQLite)
 
 **PassVault Pro** is a lightweight, offline password manager built using Python, Tkinter, and SQLite.  
@@ -87,25 +105,4 @@ A full screenshot gallery showing all windows (login, main panel, add/edit entry
 
 This project is provided for educational and personal use.  
 You may modify or extend it as needed.
-
-
-<p align="center">
-
-  <!-- Python version -->
-  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white">
-
-  <!-- Tkinter -->
-  <img src="https://img.shields.io/badge/GUI-Tkinter-FF9800?logo=windowsterminal&logoColor=white">
-
-  <!-- SQLite -->
-  <img src="https://img.shields.io/badge/Database-SQLite-003B57?logo=sqlite&logoColor=white">
-
-  <!-- Offline -->
-  <img src="https://img.shields.io/badge/Offline-100%25-success?logo=linux&logoColor=white">
-
-  <!-- License -->
-  <img src="https://img.shields.io/badge/License-Educational-blue">
-
-</p>
-
 
