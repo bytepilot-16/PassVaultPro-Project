@@ -24,10 +24,12 @@ The project works on any system with Python installed and does not require addit
 2. Download this repository  
 3. Install Tkinter if required:
 
-pip install tk
+    pip install tk
 
 
 4. Run the program (note the quotes because the filename contains spaces):
+    
+    python "PassVault Pro.py"
 
 
 ---
