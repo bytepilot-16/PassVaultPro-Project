@@ -1,64 +1,57 @@
 # PassVault Pro – Python Password Manager (Tkinter + SQLite)
 
-A simple, secure, master-password protected password manager built using **Python**, **Tkinter**, and **SQLite**.  
-This project requires *no external libraries* and runs on any PC with Python installed.
+PassVault Pro is a simple, secure password manager built using Python, Tkinter, and SQLite.  
+It uses a master password (protected with PBKDF2-HMAC-SHA256) and stores all data locally on your computer.  
+The project works on any system with Python installed and does not require additional libraries except Tkinter.
 
 ---
 
 ## 🔐 Features
 
-- Master password (PBKDF2-HMAC-SHA256)
-- Add / Edit / Delete password entries  
-- Search entries
+- Master password (PBKDF2-HMAC-SHA256 + salt)
+- Add, edit, and delete password entries
+- Search bar for quick filtering
 - Built-in password generator
-- Import & Export passwords as CSV
+- Import and export passwords as CSV
 - Clean Tkinter GUI
-- SQLite local encrypted-like storage (hash + salt)
-- No internet connection required
+- Fully offline, local storage only
 
 ---
 
 ## 📦 Installation
 
-1. Install Python 3.10+  
+1. Install Python 3.10 or later  
 2. Download this repository  
-3. Install Tkinter if needed:
+3. Install Tkinter if required:
 
 pip install tk
 
-markdown
-Copy code
 
-4. Run the program:
-
-python PassVault Pro.py
-
+4. Run the program (note the quotes because the filename contains spaces):
 
 
 ---
 
-## 📁 Files in this Project
+## 📁 Project Structure
 
-PassVault Pro.py # Main application
-requirements.txt # Dependencies (Tk only)
-.gitignore # Ignore cache + DB
+PassVault Pro.py # Main Python application
+requirements.txt # Tkinter dependency
+.gitignore # Ignore cache + database file
 README.md # Project documentation
 
-yaml
-Copy code
 
 ---
 
-## 🛡 Security
+## 🛡 Security Notes
 
-- Master password stored using PBKDF2-HMAC-SHA256 + random salt  
-- Passwords stored locally in an SQLite database  
-- Nothing is uploaded or shared online  
-- Safe for offline school/college use
+- Master password hashed using PBKDF2-HMAC-SHA256
+- Random salt for master password storage
+- Passwords stored locally in an SQLite database
+- No networking, no cloud storage, nothing leaves your device
 
 ---
 
 ## 📜 License
 
-This project is provided for **educational use**.  
-Feel free to fork and improve!
+This project is provided for educational use.  
+Feel free to improve or extend it.
