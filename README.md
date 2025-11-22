@@ -1,4 +1,14 @@
 <p align="center">
+  <img src="BANNER_IMAGE_PATH_HERE" width="820" alt="PassVault Pro Banner">
+</p>
+
+<h1 align="center">🔐 PassVault Pro</h1>
+<p align="center">
+  A lightweight, offline password manager built with Python, Tkinter, and SQLite.
+</p>
+
+<br>
+<p align="center">
 
   <!-- Python version -->
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white">
