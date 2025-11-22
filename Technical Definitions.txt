@@ -1,5 +1,4 @@
 # PassVault Pro – Detailed Explanation of All Imports
-# (Teacher-friendly, student-friendly, developer-friendly)
 
 PassVault Pro is built entirely using Python's standard library.  
 No external packages are required.  
@@ -19,7 +18,7 @@ WHAT IT DOES IN THIS PROJECT:
     • Stores hashed master password, salt, and iteration count
     • Supplies data to the Tkinter table (Treeview)
 
-TEACHER-FRIENDLY DEFINITION:
+DEFINITION:
     “sqlite3 allows Python to store data permanently inside a small database file.”
 
 ────────────────────────────────────────────────────────────────────────
@@ -32,7 +31,7 @@ WHAT IT DOES IN THIS PROJECT:
     • Checks if the database exists on first launch
     • Determines whether to create seed data
 
-TEACHER-FRIENDLY DEFINITION:
+DEFINITION:
     “Used to check if the database file already exists.”
 
 ────────────────────────────────────────────────────────────────────────
@@ -45,7 +44,7 @@ WHAT IT DOES IN THIS PROJECT:
     • Creates random character combinations during password generation
       (final validation of characters is enforced manually)
 
-TEACHER-FRIENDLY DEFINITION:
+DEFINITION:
     “Used for generating random passwords.”
 
 ────────────────────────────────────────────────────────────────────────
@@ -62,7 +61,7 @@ WHAT IT DOES IN THIS PROJECT:
     • Supplies character sets used by the password generator
     • Makes password generation more flexible and neat
 
-TEACHER-FRIENDLY DEFINITION:
+DEFINITION:
     “Gives groups of characters like letters, digits, and symbols for making passwords.”
 
 ────────────────────────────────────────────────────────────────────────
@@ -75,7 +74,7 @@ WHAT IT DOES IN THIS PROJECT:
     • Export password entries to a CSV backup file
     • Import entries from CSV into the database
 
-TEACHER-FRIENDLY DEFINITION:
+DEFINITION:
     “Allows exporting and importing password data in spreadsheet format.”
 
 ────────────────────────────────────────────────────────────────────────
@@ -93,7 +92,7 @@ WHY PBKDF2 IS USED:
     • Standard, secure, and part of Python’s standard library
     • Makes brute-force guessing extremely slow for attackers
 
-TEACHER-FRIENDLY DEFINITION:
+DEFINITION:
     “Used to securely hash the master password so it cannot be read or reversed.”
 
 ────────────────────────────────────────────────────────────────────────
@@ -123,7 +122,7 @@ WHAT IT DOES IN THIS PROJECT:
     • Records consistent ISO timestamps (UTC-safe)
     • Ensures editable logging for CSV exports/imports
 
-TEACHER-FRIENDLY DEFINITION:
+DEFINITION:
     “Used to record when each entry was created.”
 
 ────────────────────────────────────────────────────────────────────────
@@ -137,7 +136,7 @@ WHAT IT DOES IN THIS PROJECT:
     • Manages buttons, labels, spacing, layout
     • Handles user input via variables (StringVar, IntVar)
 
-TEACHER-FRIENDLY DEFINITION:
+DEFINITION:
     “Used to create the graphical user interface of the app.”
 
 ────────────────────────────────────────────────────────────────────────
@@ -155,7 +154,7 @@ WHAT IT DOES IN THIS PROJECT:
         - Comboboxes
         - Checkbox toggles
 
-TEACHER-FRIENDLY DEFINITION:
+DEFINITION:
     “Modern GUI elements for a cleaner interface.”
 
 ────────────────────────────────────────────────────────────────────────
@@ -171,7 +170,7 @@ WHAT IT DOES IN THIS PROJECT:
         - Wrong master password
         - Confirmations (“Delete entry?”)
 
-TEACHER-FRIENDLY DEFINITION:
+DEFINITION:
     “Used to show message pop-ups to the user.”
 
 ────────────────────────────────────────────────────────────────────────
@@ -186,7 +185,7 @@ WHAT IT DOES IN THIS PROJECT:
         - Master password confirmation
         - Master password login
 
-TEACHER-FRIENDLY DEFINITION:
+DEFINITION:
     “Used to ask the user to type the master password.”
 
 ────────────────────────────────────────────────────────────────────────
@@ -199,7 +198,7 @@ WHAT IT DOES IN THIS PROJECT:
     • Lets user select a file for import (CSV)
     • Lets user choose where to save exports
 
-TEACHER-FRIENDLY DEFINITION:
+DEFINITION:
     “Used to open files or save backups through a dialog box.”
 
 ────────────────────────────────────────────────────────────────────────
@@ -212,7 +211,7 @@ This project uses:
 ✔ SQLite3 for database  
 ✔ PBKDF2 hashing for master password security  
 ✔ No external dependencies  
-✔ No encryption of stored entries (plaintext inside DB)  
+✔ !!!!No encryption of stored entries (plaintext inside DB)!!!!! 
 ✔ Secure login, but simple storage — perfect for Class 12 IP  
 
 This summary fully explains every tool, function, and import used in PassVault Pro.
@@ -223,3 +222,4 @@ This summary fully explains every tool, function, and import used in PassVault P
 “PassVault Pro uses only Python’s standard libraries — sqlite3 for the database, tkinter for the GUI, csv for backup, and hashlib + secrets for secure master password hashing. All tools are syllabus-friendly and do not require external installation.”
 
 ────────────────────────────────────────────────────────────────────────
+
