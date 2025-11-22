@@ -27,20 +27,21 @@ The project works on any system with Python installed and does not require addit
 pip install tk
 
 
+
 4. Run the program (note the quotes because the filename contains spaces):
 
-python "PassVault Pro.py""
+python "PassVault Pro.py"
+
 
 
 ---
 
 ## 📁 Project Structure
 
-PassVault Pro.py # Main Python application
-requirements.txt # Tkinter dependency
-.gitignore # Ignore cache + database file
-README.md # Project documentation
-
+PassVault Pro.py      # Main Python application
+requirements.txt      # Dependency list (Tkinter)
+.gitignore            # Ignore cache + DB file
+README.md             # Project documentation
 
 ---
 
